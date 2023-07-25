@@ -35,7 +35,7 @@ puppeteer.launch({ headless: true, executablePath: executablePath() }).then(asyn
   await page.click('body > div.page.bg-grey > div.bg-grey.relative > div.container.pd-v-25 > div.flex.gutter > div.col-12-12.col-xs-5-12 > div:nth-child(1) > form > div:nth-child(3) > div > div.col-6-12.col-sm-5-12 > div > ul > li:nth-child(8)')
   await page.waitForTimeout(timeout)
 
-  // select add to card
+  // select add to cart
   await page.click('body > div.page.bg-grey > div.bg-grey.relative > div.container.pd-v-25 > div.flex.gutter > div.col-12-12.col-xs-5-12 > div:nth-child(1) > form > div.mt-10 > button')
   await page.waitForTimeout(timeout)
   
